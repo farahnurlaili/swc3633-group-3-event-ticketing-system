@@ -1,0 +1,127 @@
+:root {
+    --neon-lime: #D5FF40;
+    --bg-dark: #0B0F17;
+    --card-bg: #131822;
+    --input-bg: #1A202C;
+    --border-color: #202736;
+    --text-dim: #94A3B8;
+}
+
+body {
+    background-color: var(--bg-dark) !important;
+    color: #FFFFFF !important;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom Cards & Panels */
+.card-custom, .admin-metric-card {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 16px !important;
+    color: #FFFFFF !important;
+}
+
+.admin-metric-card {
+    padding: 24px;
+    text-align: center;
+}
+
+.admin-metric-value {
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.admin-metric-label {
+    color: var(--text-dim);
+    font-size: 0.85rem;
+    margin-top: 6px;
+    font-weight: 500;
+}
+
+/* Form inputs & controls */
+.form-control, .form-select {
+    background-color: var(--input-bg) !important;
+    border: 1px solid var(--border-color) !important;
+    color: #FFFFFF !important;
+    border-radius: 10px !important;
+}
+
+.form-control:focus, .form-select:focus {
+    background-color: var(--input-bg) !important;
+    color: #FFFFFF !important;
+    border-color: var(--neon-lime) !important;
+    box-shadow: 0 0 0 0.25rem rgba(213, 255, 64, 0.15) !important;
+}
+
+.form-label {
+    color: var(--text-dim) !important;
+    font-size: 0.88rem;
+    font-weight: 500;
+}
+
+/* Custom Buttons */
+.btn-lime {
+    background-color: var(--neon-lime) !important;
+    color: #000000 !important;
+    font-weight: 700 !important;
+    border: none !important;
+    border-radius: 10px !important;
+    transition: all 0.25s ease !important;
+}
+
+.btn-lime:hover {
+    background-color: #c4f52c !important;
+    color: #000000 !important;
+    box-shadow: 0 0 20px rgba(213, 255, 64, 0.4) !important;
+    transform: translateY(-2px);
+}
+
+.btn-outline-dark-custom {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #FFFFFF;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    font-size: 0.85rem;
+    padding: 6px 14px;
+}
+
+.btn-outline-dark-custom:hover {
+    border-color: var(--neon-lime);
+    color: var(--neon-lime);
+}
+
+/* Tables Styling */
+.table-dark-custom {
+    --bs-table-bg: var(--card-bg) !important;
+    --bs-table-hover-bg: #1c2333 !important;
+    color: #FFFFFF !important;
+}
+
+.table-dark-custom th {
+    border-bottom: 1px solid var(--border-color) !important;
+    color: var(--text-dim) !important;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.table-dark-custom td {
+    border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* Progress bars */
+.progress-dark {
+    background-color: var(--input-bg);
+    height: 8px;
+    border-radius: 4px;
+}
+
+.progress-bar-lime {
+    background-color: var(--neon-lime);
+}
+
+/* Text Highlights */
+.text-lime {
+    color: var(--neon-lime) !important;
+}
