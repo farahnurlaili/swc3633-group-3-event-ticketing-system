@@ -1,0 +1,3 @@
+Customer Total Events: counts all event rows, including draft/cancelled; booking availability remains restricted by API.
+Organiser Total Events: counts all event rows, but edit/manage permissions remain limited to own events.
+Organiser welcome: reads full_name from authenticated database user.

@@ -1,0 +1,1 @@
+Organiser Manage Events: My Events (Add/Edit/Delete/View Bookings), All Events (view only). Ownership enforced by api_events.php. Events with bookings cannot be deleted. Admin can manage all events. Use a fresh login after installation. SQL files unchanged.
